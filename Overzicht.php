@@ -1,7 +1,7 @@
 <?php 
 require('sources/functions/db_connect.php');
 require('sources/functions/selectQuery.php');
-require('sources/functions/overview.php');
+include('sources/functions/overview.php');
 
 ?>
 

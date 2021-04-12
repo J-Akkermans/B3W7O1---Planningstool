@@ -58,3 +58,11 @@
     object-fit: cover;
 }
 
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ .noDots{
+     list-style: none;
+ }
