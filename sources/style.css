@@ -1,0 +1,54 @@
+.headerLanding{
+    height: 250px !important;
+    background-image: url('img/header.jpg');  
+    background-size: cover;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 5px 10px;
+    text-align: center;
+    
+}
+
+.circleLeft::after{
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #212529;
+    width: 50%;
+    margin-left: 10px;
+    top: 66%;
+}
+.circleCenter::before
+    {
+    position: absolute;
+    content: "";
+    left: 0px;
+    height: 2px;
+    background-color: #212529;
+    width: 50%;
+    top: 66%;
+}
+.circleCenter::after
+    {
+    position: absolute;
+    content: "";
+    right: 0px;
+    height: 2px;
+    background-color: #212529;
+    width: 45%;
+    top: 66%;
+}
+
+.circleRight:after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    left: 0px;
+    background-color: #212529;
+    width: 50%;
+    top: 66%;
+}
