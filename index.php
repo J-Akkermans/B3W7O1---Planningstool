@@ -19,7 +19,7 @@
 
 <body>
     <?php include('sources/header.php'); ?>
-    <div class="row p-5 d-flex justify-content-center">
+    <div class="row p-5 d-flex justify-content-center ">
             <div class="card" style="width: 18rem; border: none;">
                 <div class="card-body text-center">
                     <h5 class="card-title">Organiseer!</h5>

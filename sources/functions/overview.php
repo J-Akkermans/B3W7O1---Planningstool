@@ -15,18 +15,22 @@ function showOverview(){
             echo $divClose;
             echo $divOpen;
         } ?>              
-            <div class="col-lg-4 d-flex justify-content-center pb-2 pt-3">
-            <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="../img/agendaIMG<?php echo $gameData["afbeelding"]?>" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title"><?php echo $gameData["titel"]?></h5>
-                    <p class="card-text"><?php echo $gameData["beschrijving"]; echo $counter;?></p>
-                    <a href="#" class="btn btn-primary">Meer informatie</a>
+
+            <div class="col-lg-4 col-sm-12 d-flex justify-content-center pb-2 pt-3">
+            <div class="card" style="width: 32rem;">
+                <img class="card-img-top img-fluid" src="sources/img/<?php echo $gameData['image']; ?>" alt="Card image cap">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title h3"><?php echo $gameData["name"]?></h5>
+                    <?php echo $gameData["description"];?>
+                    <a href="#" class="mt-auto btn btn-primary">Meer informatie</a>
                 </div>
             </div>
             </div>
 <?php
     }
-    echo $counter;
     return $data;
 }
+?>
+<html>
+
+</html>

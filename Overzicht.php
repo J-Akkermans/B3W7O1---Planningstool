@@ -20,9 +20,7 @@ require('sources/functions/overview.php');
 
 <body>
     <?php include('sources/header.php'); ?>
-    <?php 
-        showOverview();
-    ?>
+    <div class="container"> <?php showOverview();?> </div>
     
 
     <?php include('sources/footer.php'); ?>

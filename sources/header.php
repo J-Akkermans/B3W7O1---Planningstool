@@ -8,7 +8,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link text-white" aria-current="page" href="index.php">Home</a>
-                    <a class="nav-link text-white" aria-current="page" href="Overzicht.php">Overzicht</a>
+                    <a class="nav-link text-white" aria-current="page" href="Overzicht.php">Overzicht games!</a>
                 </div>
         </div>
 </nav>
