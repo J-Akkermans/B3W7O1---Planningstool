@@ -18,11 +18,11 @@ function showOverview(){
 
             <div class="col-lg-4 col-sm-12 d-flex justify-content-center pb-2 pt-3">
             <div class="card" style="width: 32rem;">
-                <img class="card-img-top img-fluid" src="sources/img/<?php echo $gameData['image']; ?>" alt="Card image cap">
+                <img class="card-img-top img-fluid" src="sources/img/db_img/<?php echo $gameData['image']; ?>" alt="Card image cap">
                 <div class="card-body d-flex flex-column">
                     <h5 class="card-title h3"><?php echo $gameData["name"]?></h5>
                     <?php echo $gameData["description"];?>
-                    <a href="#" class="mt-auto btn btn-primary">Meer informatie</a>
+                    <a href="game.php?id=<?php echo $gameData["id"]?>&name=<?= $gameData["name"]?>" class="mt-auto btn btn-primary">Meer informatie</a>
                 </div>
             </div>
             </div>

@@ -66,3 +66,9 @@
  .noDots{
      list-style: none;
  }
+
+ iframe{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+ }

@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <?php include('sources/header.php'); ?>
+    <?php include('sources/phpComp/header.php'); ?>
     <div class="row p-5 d-flex justify-content-center ">
             <div class="card" style="width: 18rem; border: none;">
                 <div class="card-body text-center">
@@ -43,7 +43,7 @@
 
 
 
-    <?php include('sources/footer.php'); ?>
+    <?php include('sources/phpComp/footer.php'); ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
